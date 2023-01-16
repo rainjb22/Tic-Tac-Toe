@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="mainContainer">
+        <h1 id="headText">Play Tic-Tac-Toe</h1><br><br>
+        <div id="cellContainer">
+<!-- added custom attribute cellNum and named them from 0 to 8 to identify each cell -->
+            <div cellNum="0" class="cell"></div>
+            <div cellNum="1" class="cell"></div>
+            <div cellNum="2" class="cell"></div>
+            <div cellNum="3" class="cell"></div>
+            <div cellNum="4" class="cell"></div>
+            <div cellNum="5" class="cell"></div>
+            <div cellNum="6" class="cell"></div>
+            <div cellNum="7" class="cell"></div>
+            <div cellNum="8" class="cell"></div>
+        </div>
+        <br>
+        <h2 id="gameStatus"></h2><br>
+        <button id="previous">↩&nbsp;&nbsp;&nbsp;</button>
+        <button id="restart">restart</button>
+        <button id="next">&nbsp;&nbsp;&nbsp;↪</button>
+    </div> 
+    <script src="/index.js"></script>
+</body>
+</html>
